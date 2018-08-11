@@ -1,0 +1,75 @@
+web-desktop: features/scenarios/web/desktop
+         -r features/helper
+         -r features/support
+         -r config/web/web.rb
+         -r config/web/desktop
+         -r screenshots
+         -r features/step_definitions/web/desktop
+         -r features/object_abstractions/web/desktop
+         -r config/api/api.rb
+         -r features/step_definitions/api
+
+web-mobile: features/scenarios/web/mobile
+         -r features/helper
+         -r features/support
+         -r config/web/web.rb
+         -r config/web/mobile
+         -r screenshots
+         -r features/step_definitions/web/mobile
+         -r features/object_abstractions/web/mobile
+         -r config/api/api.rb
+         -r features/step_definitions/api
+
+web-bbm: features/scenarios/web/bbm
+         -r features/helper
+         -r features/support
+         -r config/web/web.rb
+         -r config/web/bbm
+         -r screenshots
+         -r features/step_definitions/web/bbm
+         -r features/object_abstractions/web/bbm
+
+web-line: features/scenarios/web/line
+         -r features/helper
+         -r features/support
+         -r config/web/web.rb
+         -r config/web/line
+         -r screenshots
+         -r features/step_definitions/web/line
+         -r features/step_definitions/web/desktop/home_page_steps.rb
+         -r features/object_abstractions/web/line
+
+web-pwa: features/scenarios
+         -r features/support
+         -r config/web/pwa/pwa.rb
+         -r features/helper
+         -r features/step_definitions
+         -r features/object_abstractions/web
+
+api: features/scenarios/api
+         -r features/support
+         -r config/api/api.rb
+         -r features/helper
+         -r features/step_definitions/api
+
+apps-android: features/scenarios/apps/android
+         -r features/helper
+         -r features/support
+         -r config/apps/android
+         -r screenshots
+         -r features/step_definitions/apps/android
+         -r features/step_definitions/apps/precondition_steps.rb
+         -r features/object_abstractions/apps/android
+         -r config/api/api.rb
+         -r features/step_definitions/api
+
+apps-ios: features/scenarios/apps/ios
+         -r features/helper
+         -r features/support
+         -r config/apps/ios
+         -r screenshots
+         -r features/step_definitions/apps/ios
+         -r features/step_definitions/apps/precondition_steps.rb
+         -r features/object_abstractions/apps/ios
+         -r config/api/api.rb
+         -r features/step_definitions/api
