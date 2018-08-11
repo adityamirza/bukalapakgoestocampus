@@ -1,0 +1,55 @@
+nick_names:
+  "@agungenrico": Enrico
+  "@ajengfujii": Ajeng
+  "@amananm513": Manan
+  "@andimryn": Andi
+  "@arisnugraha": Aris
+  "@ariyohendrawan": Ariyo
+  "@arsoedjono": Aranda
+  "@dickyedg": Dicky
+  "@Fadhlimaulidri": Fadhli
+  "@Fathirw": Fathir
+  "@fauridhomahran": Dodo
+  "@ferie993": Ferie
+  "@irfanharies": Irfan
+  "@jassire": Jaswir
+  "@Lamhotjm": Lamhot
+  "@luthfiswees": Luthfi
+  "@Mirzaaditya": Mirza
+  "@mpermperpisang": Fera
+  "@olvilora": Lora
+  "@rizkyandika88": Aseng
+  "@tinusagustin": Tinus
+  "@WiraPramudy": Wira
+  "@yudadul": Yuda
+  "@Yudhamau": Yudha
+  "@squilliams": Bimo
+squads:
+  smoke-testing-bbm: "@mpermperpisang"
+  smoke-testing-btp: "@Fathirw"
+  smoke-testing-chat: "@dickyedg"
+  smoke-testing-csi: "@Mirzaaditya"
+  smoke-testing-dgt: "@arisnugraha"
+  smoke-testing-inv: "@andimryn"
+  smoke-testing-mwc: "@tinusagustin"
+  smoke-testing-notif: "@yudadul"
+  smoke-testing-pap: "@WiraPramudy"
+  smoke-testing-pcv: "@irfanharies"
+  smoke-testing-pnl: "@Yudhamau"
+  smoke-testing-pnr: "@olvilora"
+  smoke-testing-polseq: "@ariyohendrawan"
+  smoke-testing-prom: "@agungenrico"
+  smoke-testing-px: "@ajengfujii"
+  smoke-testing-sct: "@jassire"
+  smoke-testing-seo: "@tinusagustin"
+  smoke-testing-shg: "@fauridhomahran @luthfiswees"
+  smoke-testing-uts: "@ariyohendrawan"
+  smoke-testing-vp-postpaid: "@arsoedjono"
+  smoke-testing-vp-prepaid: "@Fadhlimaulidri"
+  smoke-testing-vp-ticketing: "@rizkyandika88"
+  smoke-testing-wow: "@andimryn"
+  smoke-testing-xpress: "@ferie993"
+  smoke-testing-art: "@amananm513"
+  smoke-testing-brand: "@squilliams"
+exclude:
+  - smoke-testing-sct
